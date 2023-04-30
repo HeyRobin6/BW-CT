@@ -1,0 +1,124 @@
+
+    .container {
+        width: 184px;
+        text-align: center;
+    }
+
+    .progress-container {
+        border: solid transparent;
+        width: 180px;
+        height:105px;
+        position: relative;
+        
+    }
+
+    #semicircle-container {
+        border: solid transparent;
+        width: 170px;
+        height: 85px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 6px;
+    }
+
+    #semicircle {
+        position: relative;
+        height: 1px;
+        width: 2px;
+        border-radius: 150px 150px 0 0;
+        background-color: #9164b0;
+        margin-top: 90px;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    #flower-container {
+        margin-left: auto;
+        margin-right: auto;
+        height: 100%;
+        position: absolute;
+        border: none;
+        width: 75%;
+    }
+
+    #flower {
+        height: 100%;
+
+    }
+
+    #overlay-container {
+        margin-left: auto;
+        margin-right: auto;
+        height: 100%;
+        position: absolute;
+        border: none;;
+        width: 75%;
+        z-index:9;
+    }
+
+    #overlay {
+        height: 100%;
+    }
+
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #55534f;
+    }
+
+    #inhale-exhale {
+        opacity: 0%;
+        margin-bottom: -5px;
+        margin-top: 5px;
+        position: relative;
+        z-index: 10;
+    }
+
+    #counter {
+        z-index: 10;
+        position: relative;
+        margin-top: -2px;
+        margin-bottom: 4px;
+    }
+
+    button {
+        border-radius: 10px;
+        border: transparent;
+        padding-left:8px;
+        padding-right: 8px;
+        padding-top: 2.5px;
+        padding-bottom: 2.5px;
+        color: white;
+        background-color: #55534f;
+        margin-top: 100px;
+        font-family: Helvetica,Arial sans-serif;
+
+    }
+
+    /* #start {
+        opacity: 0;
+        transition: 1s;
+    } */
+
+
+    
+    #stop {
+        display: none;
+        background-color: transparent;
+        position:relative;
+    }
+
+    .fadeIn-container {
+        background-color: transparent;
+        position: relative;
+        height:120px;
+        z-index: 11;
+        margin-top: -100px;
+        opacity: 0;
+        transition: 1s;
+    }
+
+    .fadeIn-container:hover {opacity: 1}
